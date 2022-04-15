@@ -4,6 +4,7 @@
 
 
 ### (temporary) ca marche pas :'(
+we in sweden ? 
 
 ### Introduction et présentation du sujet
 Nous sommes le groupe Simtsuna, anagramme de Tsunami, sujet que nous avons choisi de traiter.
