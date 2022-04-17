@@ -2,12 +2,7 @@
 <h4 align="center">Hugo Pham, Mika Vogel, Amine Cherif, Philippe Gueorguievskii. </h4> 
 <h4 align="center">SCFO 22-1-B </h4> 
 
-
-### (temporary) IS IT WORKING ?
-#TEST AZNevabzeuvyazehjcaebc hugophm-patch-1
-
-
-
+### (temporary) POTATO POWER
 
 
 ### Introduction et présentation du sujet
