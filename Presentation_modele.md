@@ -26,36 +26,36 @@
 
 ### Fonction principale
 #### genBoard(taille_ville:int ,taille_littoral:int ,taille_mer:int ,norme_moyenne:int ,nb_bats:int,nb_civils:int,infos_murs:list,profondeur_max):
-return un tuple (matrice environnement, matrice civile)
+	return un tuple (matrice environnement, matrice civile)
 
-permet de générer une matrice environnement, composée de la manière suivante:
--de taille taille_ville sur y (nb lignes)
--de taille taille_ville+taille_littoral+taille_mer sur x (nb élement par lignes)
+	permet de générer une matrice environnement, composée de la manière suivante:
+	-de taille taille_ville sur y (nb lignes)
+	-de taille taille_ville+taille_littoral+taille_mer sur x (nb élement par lignes)
 
-Dans cette matrice, les taille_ville premiers élements représentent la ville, ce sont des éléments de classe Batiment lorsqu'il y a un bâtiment à ces coords 0sinon.
-Pour construire cela, on utilise les paramètres taille_ville, norme_moyenne, nb_bats.
-La ville a donc pour taille taille_ville, une norme moyenne permettant de calculer les normes de chaque bâtiments et nb_bats le nb de bâtiments à poser, on présuppose arbitrairement les inégalités dans la ville à "2"
-afin d'avoir des variations dans le paysage, sans pour autant s'engager sur trop de paramètres, qui rendrait le code encore + confus.
-(la ville est donc stockée dans board[i][:taille_ville])
+	Dans cette matrice, les taille_ville premiers élements représentent la ville, ce sont des éléments de classe Batiment lorsqu'il y a un bâtiment à ces coords 0sinon.
+	Pour construire cela, on utilise les paramètres taille_ville, norme_moyenne, nb_bats.
+	La ville a donc pour taille taille_ville, une norme moyenne permettant de calculer les normes de chaque bâtiments et nb_bats le nb de bâtiments à poser, on présuppose arbitrairement les inégalités dans la ville à "2"
+	afin d'avoir des variations dans le paysage, sans pour autant s'engager sur trop de paramètres, qui rendrait le code encore + confus.
+	(la ville est donc stockée dans board[i][:taille_ville])
 
 
 
-Nous avons ensuite dans l'environnement la partie littoral. 
-matrice de taille [taille_ville][taille_littoral]
-Pour la construire, nous utilisons taille_littoral, pour en définir l'épaisseur, et infos_mur.
-infos_mur est une liste, dans laquelle on met si l'on souhaite en avoir des informations sur le(s) mur(s) selon le modèle suivant:
-[[(coords y départ, épaisseur mur),(hauteur x départ, taille du mur),hauteur,resistance],[idem pour le mur2]].
-(Cette partie est conservée dans board[i][taille_ville:taille_ville+taille_littoral])
+	Nous avons ensuite dans l'environnement la partie littoral. 
+	matrice de taille [taille_ville][taille_littoral]
+	Pour la construire, nous utilisons taille_littoral, pour en définir l'épaisseur, et infos_mur.
+	infos_mur est une liste, dans laquelle on met si l'on souhaite en avoir des informations sur le(s) mur(s) selon le modèle suivant:
+	[[(coords y départ, épaisseur mur),(hauteur x départ, taille du mur),hauteur,resistance],[idem pour le mur2]].
+	(Cette partie est conservée dans board[i][taille_ville:taille_ville+taille_littoral])
 
-Enfin nous avons dans la dernière partie de la matrice environnement la mer.
-pour la mer, on utilise taille_mer, pour en set la longueur (donc de taille [taille_ville][taille_mer].
-et on utilise la variable profondeur_max pour set la profondeur maximale atteinte.
-Ensuite la matrice est initialisée avec des valeurs dynamique jusqu'à atteindre la profondeur maximale tout à droite (profondeur atteinte).
-Ces valeurs sont prises par rapport à leurs voisins, donc pas tout à fait linéaire, ce qui fait un sol marin un petit peu irrégulier (réalisme)
+	Enfin nous avons dans la dernière partie de la matrice environnement la mer.
+	pour la mer, on utilise taille_mer, pour en set la longueur (donc de taille [taille_ville][taille_mer].
+	et on utilise la variable profondeur_max pour set la profondeur maximale atteinte.
+	Ensuite la matrice est initialisée avec des valeurs dynamique jusqu'à atteindre la profondeur maximale tout à droite (profondeur atteinte).
+	Ces valeurs sont prises par rapport à leurs voisins, donc pas tout à fait linéaire, ce qui fait un sol marin un petit peu irrégulier (réalisme)
 
-La matrice civile quant à elle est de même dimension que la partie civile de la matrice environnement, et elle contient des civils jusque là placer aléatoirement dans des coordonnées ayant des bâtiments placés (on prévoit de les placer selon des places disponibles plus réaliste et de placer les autres dehors, mais on verra avec le temps)
-Pour la générer, on utilise donc la partie ville de la matrice environnement.
-Et nb_civils, pour savoir le nombre de civil à placer. 
+	La matrice civile quant à elle est de même dimension que la partie civile de la matrice environnement, et elle contient des civils jusque là placer aléatoirement dans des coordonnées ayant des bâtiments placés (on prévoit de les placer selon des places disponibles plus réaliste et de placer les autres dehors, mais on verra avec le temps)
+	Pour la générer, on utilise donc la partie ville de la matrice environnement.
+	Et nb_civils, pour savoir le nombre de civil à placer. 
 
 
 
@@ -105,7 +105,18 @@ Et nb_civils, pour savoir le nombre de civil à placer.
 
 
 
+# Sum Up: les paramètres modifiables:
 
+	-taille de la ville	(taille_ville)
+	-norme_moyenne de la ville (norme_moyenne)
+	-inégalité dans la ville (pas sous forme de variable)
+	-nb_batiment dans la ville (nb_bats)
+	-taille du littoral	(taille_littoral)
+	-taille de la mer	(taille_mer)
+	-profondeur maximale de la mer	(profondeur_max)
+	-nb de civil présent (nb_civil)
+	-Magnitude du Tsunami (magnitude)
+	-
 
 
 
