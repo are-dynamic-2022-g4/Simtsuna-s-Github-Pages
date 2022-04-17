@@ -117,6 +117,11 @@
 	-nb de civil présent (nb_civil)
 	-Magnitude du Tsunami (magnitude)
 	-
+	
+	à ajt: 
+	-budget_max ?  requiert de refaire la fonction ville à 0 :/
+	-placer les civils dans les batiments en fonction de la place dispo dans le bat  ?(calc par la hauteur et surface par étage predef) le reste reste dans la rue et meurent (+réaliste)
+	-
 
 
 
