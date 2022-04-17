@@ -5,6 +5,7 @@
 ### (temporary) POTATO POWER
 
 ca marche ?  (index.md dans site)
+this should be working fine now :)
 
 
 ### Introduction et présentation du sujet
