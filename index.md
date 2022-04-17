@@ -2,20 +2,12 @@
 <h4 align="center">Hugo Pham, Mika Vogel, Amine Cherif, Philippe Gueorguievskii. </h4> 
 <h4 align="center">SCFO 22-1-B </h4> 
 
-### (temporary) POTATO POWER
-
-ca marche ?  (index.md dans site)
-this should be working fine now :)
+(pas fini :o)
 
 
 ### Introduction et présentation du sujet
 Nous sommes le groupe Simtsuna, anagramme de Tsunami, sujet que nous avons choisi de traiter.
-Pour être plus précis, nous avons choisis d'étudier ce domaine selon les critères suivants: 
-
-
-
-Nous avons réalisé des simulations de tsunamis, afin de traiter la problématique suivante:                       
-
+Pour être plus précis, nous avons réalisé des simulations de passage de tsunamis sur des villes, afin de traiter de la manière suivante le projet:   
 
 
 ## Thème: 
@@ -36,18 +28,19 @@ Comment limiter les dégâts du passage d'un tsunami sur un espace habité étan
 
 
 ## Objectifs:
--Étudier les sytèmes de préventions et les mesures actuelles face aux tsunamis.
-    >étudier leurs intérêts et leurs fonctionnements.
+-Étudier les sytèmes de préventions et les mesures actuelles face aux tsunamis & étudier leurs intérêts et leurs fonctionnements.
     
     
 -Chercher une meilleure solution ? 
 
 
--Comprendre comment les tsunamis sont provoqués.
+-Comprendre comment les tsunamis sont provoqués, et comment ils causent des dégâts.
 
 
 ## Critères d’évaluation:
--Taux de destruction de la ville après le passage du tsunami.
+-Taux de destruction de la ville après le passage du tsunami || taux de destruction selon la magnitude du tsunami et la norme moyenne.
+
+-Taux de destruction de la ville selon un budget donné, pour des tsunamis de différentes magnitudes. 
 
 
 -Taux de la population ayant survécu. 
@@ -57,8 +50,25 @@ Comment limiter les dégâts du passage d'un tsunami sur un espace habité étan
 
 
 -Budget restant pour reconstruire.
-	
 
-#### test 
-###### aze
+
+
+## Expériences à réaliser:
+-Pour 1 même magnitude de vague:
+	-taux de destructions de la ville par rapport à la norme moyenne instaurée.
+	-taux de morts par rapport à la norme moyenne.
+	-taux de morts par rapport au budget dépensé ? 
+
+-Pour 1 même vague et une même ville: 
+	-impact des défenses (une différence ?)
+	-taux de destructions & morts par rapport aux défenses implantées (coût des défenses ?).
+
+-Pour 1 norme moyenne de ville || 1 budget moyen:
+	-taux de destructions &/ou morts par rapport à différentes magnitudes de tsunami.
+
+
+## Expéricences réalisées: 
+
+-Aucune pour l'instant :p
+
 
