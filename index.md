@@ -4,6 +4,8 @@
 
 ### (temporary) POTATO POWER
 
+ca marche ?  (index.md dans site)
+
 
 ### Introduction et présentation du sujet
 Nous sommes le groupe Simtsuna, anagramme de Tsunami, sujet que nous avons choisi de traiter.
