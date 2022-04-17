@@ -78,7 +78,8 @@ Comment limiter les dégâts du passage d'un tsunami sur un espace habité étan
 Pour générer un environnement, notre fonction 
 
 genboard()
-
+test:
+![Book logo](/SimtsunaPublic/Exemple_genboard.png)
 
 
 
