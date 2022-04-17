@@ -72,3 +72,18 @@ Comment limiter les dégâts du passage d'un tsunami sur un espace habité étan
 -Aucune pour l'instant :p
 (sur une autre page ? )
 
+## présentation du modèle:
+(sure une autre page aussi ?)
+
+Pour générer un environnement, notre fonction 
+
+genboard()
+
+
+
+
+
+
+
+
+
