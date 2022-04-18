@@ -31,6 +31,8 @@ Comment limiter les dégâts du passage d'un tsunami sur un espace habité étan
 
 -Plus le littoral entre la ville et la mer est grand (et la distance donc), moins la vague fait de dégât
 
+-Les vagues sont des ondes, peut-être existe-t-il un matériaux puissant les "absorber" ?  
+
 ## Objectifs:
 -Étudier les sytèmes de préventions et les mesures actuelles face aux tsunamis & étudier leurs intérêts et leurs fonctionnements.
     
