@@ -60,15 +60,15 @@ Comment limiter les dégâts du passage d'un tsunami sur un espace habité étan
 
 ## Rapport Hebdomadaires:
 
-[Rapport](Rapport_hebdo.md)
+[Rapports Hebdomaire](Rapport_hebdo.md)
 
 ## Page Expérience:
 
-[Expériences](Experience.md)
+[Nos expériences](Experience.md)
 
 ## Présentation du modèle:
 
-[Présentation modèle](Presentation.md)
+[Présentation de nôtre modèle](Presentation.md)
 
 ## Bibliographie 
 
