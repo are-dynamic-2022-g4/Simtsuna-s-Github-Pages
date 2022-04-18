@@ -97,4 +97,4 @@ test2:
 
 
 test:
-[https://github.com/are-dynamic-2022-g4/SimtsunaPublic/tree/site/test2.md] test2.md
+[https://github.com/are-dynamic-2022-g4/SimtsunaPublic/tree/site/] test2.md
