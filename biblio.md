@@ -33,8 +33,8 @@ Nous l’avons utilisé pour chercher des articles sur des domaines spécifiques
 ## Bibliographie: 
 
     -Wikipédia https://fr.wikipedia.org/wiki/Tsunami : informations générales.
-    -
-    -
+    -https://www.ecologie.gouv.fr/construction-et-risques-sismiques : Pour observer les critères des normes anti sismique pour appliquer au tsunami.
+    -https://www.geo.fr/environnement/au-japon-un-mur-geant-anti-tsunamis-196836 : quelques informations (chiffres,conséquence, alternative) par rapport aux murs antitsunami.
     -https://www.gralon.net/articles/materiel-et-consommables/materiels-industriels/article-les-tsunamis---definition-et-echelles-de-mesure--6296.htm : échelle d'Imamura et Iida pour les caractéristiques du tsunami (et donc des vagues)
     - https://www.dynacast.com/fr-fr/ressources/dynamic-process-metal-selector  : informations générales sur la résistance des matériaux
     -https://www.holcimpartner.ch/fr/betonpraxis/proprietes-mecaniques-du-beton-durci : Informations sur les résistances des matériaux (en MPA)
