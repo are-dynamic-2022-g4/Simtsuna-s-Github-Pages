@@ -42,7 +42,7 @@ Comment limiter les dégâts du passage d'un tsunami sur un espace habité étan
 
 ## Critères d’évaluation:
 
--Taux de destruction de la ville après le passage du tsunami || taux de destruction selon la magnitude du tsunami et la norme moyenne.
+-Taux de destruction et de mort selon la magnitude du tsunami et la norme moyenne.
 
 -Taux de destruction de la ville selon un budget donné, pour des tsunamis de différentes magnitudes. (ou pour un même tsunami avec différents budgets)
 
