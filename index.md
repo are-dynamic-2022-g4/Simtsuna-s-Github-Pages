@@ -56,28 +56,20 @@ Comment limiter les dégâts du passage d'un tsunami sur un espace habité étan
 
 
 
-## Expériences à réaliser:
--Pour 1 même magnitude de vague:
-	-taux de destructions de la ville par rapport à la norme moyenne instaurée.
-	-taux de morts par rapport à la norme moyenne.
-	-taux de morts par rapport au budget dépensé ? 
+## Page Expérience:
 
--Pour 1 même vague et une même ville: 
-	-impact des défenses (une différence ?)
-	-taux de destructions & morts par rapport aux défenses implantées (coût des défenses ?).
-
--Pour 1 norme moyenne de ville || 1 budget moyen:
-	-taux de destructions &/ou morts par rapport à différentes magnitudes de tsunami.
+[Expériences](Experience.md)
 
 
-## Expéricences réalisées: 
 
--Aucune pour l'instant :p
-(sur une autre page ? )
 
 ## présentation du modèle:
-(sure une autre page aussi ?)
 
+[Présentation modèle](test2.md)
+
+## Bibliographie 
+
+[Bibliographie](biblio.md)
 
 Pour générer un environnement, notre fonction 
 
@@ -92,9 +84,4 @@ test2:
 
 
 
-## Bibliographie 
-à faire
 
-
-test:
-[https://github.com/are-dynamic-2022-g4/SimtsunaPublic/tree/site/](test2.md)
