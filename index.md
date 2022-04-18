@@ -65,7 +65,7 @@ Comment limiter les dégâts du passage d'un tsunami sur un espace habité étan
 
 ## présentation du modèle:
 
-[Présentation modèle](test2.md)
+[Présentation modèle](presentation.md)
 
 ## Bibliographie 
 
