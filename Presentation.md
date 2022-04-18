@@ -28,7 +28,6 @@ Les fonctions suivantes sont issues de la version précédente de notre code.
     permet de calculer les coordonnées des voisins d'une case (utilisée pour les profondeurs de la mer
 
 
-
 ### Fonction principale
 #### genBoard(taille_ville:int ,taille_littoral:int ,taille_mer:int ,norme_moyenne:int ,nb_bats:int,nb_civils:int,infos_murs:list,profondeur_max):
 	return un tuple (matrice environnement, matrice civile)
