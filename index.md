@@ -7,14 +7,14 @@
 
 ### Introduction et présentation du sujet
 Nous sommes le groupe Simtsuna, anagramme de Tsunami, sujet que nous avons choisi de traiter.
-Pour être plus précis, nous avons réalisé des simulations de passage de tsunamis sur des villes, afin de traiter de la manière suivante le projet:   
+Pour être plus précis, nous avons réalisé des simulations de passage de tsunamis sur une ville, afin de traiter de la manière suivante le projet:   
 
 
 ## Thème: 
-Étude des dégât matériels et humains suite au passage d'un Tsunami. 
+Étude des dégât matériels et humains suite au passage d'un Tsunami dans un millieu habité. 
 
 ## Problématique: 
-Comment limiter les dégâts du passage d'un tsunami sur un espace habité étant donné un budget? 
+Comment limiter les dégâts du passage d'un tsunami sur un espace habité étant donné un budget?
 
 
 ## Hypothèses: 
@@ -23,6 +23,7 @@ Comment limiter les dégâts du passage d'un tsunami sur un espace habité étan
 
 -Les mesures de préventions actuelles ne sont pas efficaces face aux tsunamis.
 
+-Il suffit de poser un mur résistant plus grand que le tsunami.
 
 -Il est moins coûteux de prévenir en investissant dans des défenses contre les tsunamis que de reconstruire suite à la destruction causée par ceux-ci.
 
@@ -31,25 +32,27 @@ Comment limiter les dégâts du passage d'un tsunami sur un espace habité étan
 -Étudier les sytèmes de préventions et les mesures actuelles face aux tsunamis & étudier leurs intérêts et leurs fonctionnements.
     
     
--Chercher une meilleure solution ? 
+-Chercher une meilleure solution face au problème que sont les tsunamis.
 
 
 -Comprendre comment les tsunamis sont provoqués, et comment ils causent des dégâts.
 
+-Cherche des moyens de réduire au maximum les pertes (matérielles et humaine) selon un budget raisonnable. (et à terme définir un budget de défense à attribuer).
+
 
 ## Critères d’évaluation:
+
 -Taux de destruction de la ville après le passage du tsunami || taux de destruction selon la magnitude du tsunami et la norme moyenne.
 
--Taux de destruction de la ville selon un budget donné, pour des tsunamis de différentes magnitudes. 
-
+-Taux de destruction de la ville selon un budget donné, pour des tsunamis de différentes magnitudes. (ou pour un même tsunami avec différents budgets)
 
 -Taux de la population ayant survécu. 
-
 
 -Infrastructures encore fonctionnelles.
 
 
--Budget restant pour reconstruire.
+
+
 
 
 
