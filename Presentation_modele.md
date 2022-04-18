@@ -3,7 +3,7 @@
 ### Classes 
     -Batiment(norme:int,rési:int,hauteur:int,etat:float,coords:tuple)
 
-    -Vagues(vitesse:float,coords:tuple,hauteur:float)
+    -Vague(magnitude:int ,coords:tuple)-> [magnitude:int ,hauteur:int ,pression:float ,coords:tuple]
 
 
 ### Construction pour la ville
@@ -62,26 +62,26 @@
 
 ### Tsunami 
     -distance(a:tuple,b:tuple):
-    permet de calculer la distance euclidienne entre 2 points 2 dimensions
-    sera peut-être utilisé pour la vague, (distance épicentre)
+	    permet de calculer la distance euclidienne entre 2 points 2 dimensions
+	    sera peut-être utilisé pour la vague, (distance épicentre)
 
 
     -hauteur_max(magnitude):
-    étant donné que l'on suit l'échelle d'Imamura, la hauteur de la vague est définie par la magnitude choisie.
-    alors cette fonction permet de générer(avec un peu de rdm) la hauteur MAX de la vague arrivant au côte selon la magnitude (selon l'échelle d'Imamura)
+	    étant donné que l'on suit l'échelle d'Imamura, la hauteur de la vague est définie par la magnitude choisie.
+	    alors cette fonction permet de générer(avec un peu de rdm) la hauteur MAX de la vague arrivant au côte selon la magnitude (selon l'échelle d'Imamura)
 
 
     -Tsunami3(board,taille_ville,taille_littoral,taille_mer,magnitude):
-    fonction modélisant le tsunami.
+	    fonction modélisant le tsunami.
 
-    fonction qui crée une matrice Vague de même dimension que board
-    dans cette matrice, on calcule puis stocke les informations du tsunami par coordonnées (hauteur, vitesse, force...) par coordonnées.
-    Elle est donc remplie d'élément de classe Vagues, et pour l'instant on ne conserve que la hauteur (faut de savoir calculer les chocs autrement pour le moment).
+	    fonction qui crée une matrice Vague de même dimension que board
+	    dans cette matrice, on calcule puis stocke les informations du tsunami par coordonnées (hauteur, vitesse, force...) par coordonnées.
+	    Elle est donc remplie d'élément de classe Vagues, et pour l'instant on ne conserve que la hauteur (faut de savoir calculer les chocs autrement pour le moment).
 
-    Ainsi elle retourne pour l'instant une matrice, avec dans Vague pour les coordonnées correspondant à la mer dans board, la hauteur des vagues. (calculée selon Imamura pour la plus grande, et un calcul arbitraire selon l'échelle des houles par Percy Douglas (car le calcul de l'amplitude pour un tsunami est trop complexe)
+	    Ainsi elle retourne pour l'instant une matrice, avec dans Vague pour les coordonnées correspondant à la mer dans board, la hauteur des vagues. (calculée selon Imamura pour la plus grande, et un calcul arbitraire selon l'échelle des houles par Percy Douglas (car le calcul de l'amplitude pour un tsunami est trop complexe)
 
-    -tsunami4(board,taille_ville,taille_littoral,taille_mer,magnitude):
-    pareil que tsunami 3 mais les vagues sont placés à la place de la mer
+	    -tsunami4(board,taille_ville,taille_littoral,taille_mer,magnitude):
+	    pareil que tsunami 3 mais les vagues sont placés à la place de la mer
   
 ### Collision
     -choc(coords:tuple,ville,vague,mcivil):
@@ -95,7 +95,20 @@
 
     Ainsi si l'on manipule bien cette fonction, on pourra avoir au final un taux de destruction, de mort et ptt de budget.
 
-
+	(force et resistance en MPA)
+	-tsunami(ville,taille,mat_civil,nb_civil_total):
+		ville: matrice de l'environnement, avec la ville, le littoral et la mer(ayant les caractéristiques de la vague)
+		taille: taille de la matrice 
+		mat_civil: matrice avec les civils stocké dans des cases
+		nb_civil_total: nb de civil dans la ville
+	
+	Cette fonction permet de calculer en tout point de la ville, l'impact entre une vague ayant des caractéristiques (hauteur et pression (déduit dans la classe vague de la force)) et un batiment ayant pour caractéristiques (resistance,hauteur). 
+	Le résultat de cette rencontre est le suivant:
+		
+		-Cas où la vague est plus grande que 100% du bâtiment: on détruit 100% du batiment, et on tue tout les civils. La vague perd en "force"(on soustrait à la pression la resistance du batiment, et on baisse la hauteur selon le pourcentage perdu)
+		-Cas où la force vague est presque similaire à la résistance du bâtiment: On déduit un pourcentage entre les 2, et on va détruire le batiment à ce pourcentage, tuant ce même pourcentage de civil. On affaiblit ensuite la vague du même pourcentage (sa hauteur et sa pression)
+		-Cas où la vague est strictement plus faible (donc moins de pression ET moins haute) que le bâtiment: 
+	
 
 
 ### à faire: 
