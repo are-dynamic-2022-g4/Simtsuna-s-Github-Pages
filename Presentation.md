@@ -1,5 +1,10 @@
 # Liste des fonctions et explications de leurs fonctionnement
 
+## Note:
+Il y a eu des changements radicaux dans le code, je n'ai donc pas eu le temps de tout retranscrire. 
+Les fonctions suivantes sont issues de la version précédente de notre code.
+
+
 ### Classes 
     -Batiment(norme:int,rési:int,hauteur:int,etat:float,coords:tuple)
 
