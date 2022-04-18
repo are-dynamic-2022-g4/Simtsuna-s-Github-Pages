@@ -5,7 +5,7 @@
 (pas fini :o)
 
 
-### Introduction et présentation du sujet
+# Introduction et présentation du sujet
 Nous sommes le groupe Simtsuna, anagramme de Tsunami, sujet que nous avons choisi de traiter.
 Pour être plus précis, nous avons réalisé des simulations de passage de tsunamis sur une ville, afin de traiter de la manière suivante le projet:   
 
