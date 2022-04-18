@@ -33,7 +33,7 @@ Nous l’avons utilisé pour chercher des articles sur des domaines spécifiques
 ## Bibliographie: 
 
     -Wikipédia https://fr.wikipedia.org/wiki/Tsunami : informations générales.
-    -https://www.senat.fr/rap/r07-117/r07-117_mono.html : énormément d'information
+    -https://www.senat.fr/rap/r07-117/r07-117_mono.html : énormément d'information sur les mesures prises à travers le monde, et les tsunamis en général.
     -https://link-springer-com.accesdistant.sorbonne-universite.fr/book/10.1007/978-4-431-55558-2 informations quant à la reconstruction de la ville suite à un tsunami.
     -https://www.ecologie.gouv.fr/construction-et-risques-sismiques : Pour observer les critères des normes anti sismique pour appliquer au tsunami.
     -https://www.geo.fr/environnement/au-japon-un-mur-geant-anti-tsunamis-196836 : quelques informations (chiffres,conséquence, alternative) par rapport aux murs antitsunami.
