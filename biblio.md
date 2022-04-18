@@ -11,7 +11,7 @@ Enfin nous comptons aussi étudier un peu l’aspect économique, en attribuant 
 dresserons à la fin de la simulation les bilans humains et matériels.
 
 ## Outils utilisés :
-### Outil : 
+
 **Primo**, Il s’agit du catalogue numérique de la bibliothèque de sorbonne université, catalogue
 permettant de chercher différentes informations dans des domaines scientifique mais pas que, sous
 plusieurs formes (articles, livres, vidéos, film...). Pour ce qui est du niveau de spécialisation, comme
