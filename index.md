@@ -56,15 +56,13 @@ Comment limiter les dégâts du passage d'un tsunami sur un espace habité étan
 
 
 
+## Rapport Hebdomadaires:
 
-
+[Rapport](Rapport_hebdo.md)
 
 ## Page Expérience:
 
 [Expériences](Experience.md)
-
-
-
 
 ## Présentation du modèle:
 
@@ -74,10 +72,8 @@ Comment limiter les dégâts du passage d'un tsunami sur un espace habité étan
 
 [Bibliographie](biblio.md)
 
-Pour générer un environnement, notre fonction 
 
-genboard()
-test:
+Voici des exemples du résultat de la fonction principale pour des variables arbitraire:
 ![Book logo](/SimtsunaPublic/Exemple_genboard.png)
 
 
