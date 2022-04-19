@@ -13,4 +13,7 @@
 
 
 ## Expéricences réalisées: 
-  
+
+Moyenne de destruction (sur 100 répétitions) d'une même ville, face aux différentes magnitudes d'un tsunami.
+![taux_destruction](https://user-images.githubusercontent.com/101204424/164016936-7e122b77-b9d2-41f5-9e04-ef409e2712e1.png)
+
