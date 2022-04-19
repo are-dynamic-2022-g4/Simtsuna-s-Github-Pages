@@ -6,15 +6,17 @@ Les variables que l'on peut modifier dans le code, pour agir sur l'environnement
     -Force/Magnitude de la vague (agit sur la hauteur et pression exercé par la vague)
     -Nombre de vagues (représente la "gravité du tsunami)
     -Type(brise-lame, digue,mur) et niveau(matériau) protection posé (pour le même emplacement) : (agit sur les protections de la ville) 
-    -
+    
+    
 Ce qu'on arrive à tirer des résultats:
 
     -Nombre de morts avec et sans mur
     -Nombre de bâtiments détruit avec et sans mur
-    -État global de la ville en %tage avec et sans mur
-    -Moyenne des matériaux et hauteurs utilisés dans la ville
-    -Hauteur de la vague par la magnitude utilisée
-    -Budget utilisé (par la ville et pour les protections)
+    -tat global de la ville en %tage avec et sans mur
+    -moyenne des matériaux et hauteurs utilisés dans la ville
+    -hauteur de la vague par la magnitude utilisée
+    -Budget utilisé (ville & protection)
+
 
 
 # Justification: 
