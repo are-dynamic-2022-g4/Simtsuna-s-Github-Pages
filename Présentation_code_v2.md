@@ -24,7 +24,7 @@ Ce qu'on arrive à tirer des résultats:
     -Force/magnitude des vagues sont données selons l'échelle d'Imamura et Iida, car ce qui nous intéresse est de voir définir l'échelle de résistance de nos protection (face à quelle magnitude de tsunami sont-elle éfficace ?)
     
     -On ne fait pas jouer de normes moyennes et d'écart à la moyenne (inégalités) car nous n'avons pas eu le temps de le traduire et de l'adapter pour ce code (marche dans l'ancien).
-    -On n'utilisera pas non plus la profondeur de la mer, pour les mêmes raisons 
+    -On n'utilisera pas non plus la profondeur de la mer, pour les mêmes raisons + on ne calcule pas la hauteur des vagues car grâce à l'échelle d'Imamura et Iida la taille est "predef"(dans les fourchettes).
     
     
     
