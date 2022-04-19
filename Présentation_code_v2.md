@@ -12,7 +12,7 @@ Ce qu'on arrive à tirer des résultats:
 
     -Nombre de morts avec et sans mur
     -Nombre de bâtiments détruit avec et sans mur
-    -tat global de la ville en %tage avec et sans mur
+    -taux de destruction global de la ville
     -moyenne des matériaux et hauteurs utilisés dans la ville
     -hauteur de la vague par la magnitude utilisée
     -Budget utilisé (ville & protection)
