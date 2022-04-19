@@ -16,7 +16,7 @@ Nous avons réalisé des simulations de tsunamis, afin de traiter la problémati
 
 
 ## Thème: 
-Étude des dégât matériels et humains suite au passage d'un Tsunami. 
+Étude des dégâts matériels et humains suite au passage d'un Tsunami. 
 
 ## Problématique: 
 Comment limiter les dégâts du passage d'un tsunami sur un espace habité étant donné un budget? 
