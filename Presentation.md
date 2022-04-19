@@ -5,11 +5,11 @@ Il y a eu des changements radicaux dans le code, je n'ai donc pas eu le temps de
 Les fonctions suivantes sont issues de la version précédente de notre code.
 
 Voici des exemples du résultat de la fonction principale pour des variables arbitraire:
-![here](/SimtsunaPublic/Exemple_genboard.png)
 
 
 
-test2: 
+
+here: 
 ![image](https://user-images.githubusercontent.com/101204424/163715566-36e697db-0d19-42e5-a321-1c6f990b35d4.png)
 
 
