@@ -2,7 +2,7 @@
 <h4 align="center">Hugo Pham, Mika Vogel, Amine Cherif, Philippe Gueorguievskii. </h4> 
 <h4 align="center">SCFO 22-1-B </h4> 
 
-(pas fini :o)
+
 
 
 ## Introduction et présentation du sujet
@@ -18,8 +18,6 @@ Est-il rentable de protéger une ville face à un tsunami?
 
 
 ## Hypothèses: 
--Il est possible de "briser" la vague au large, peut-être en construisant des infrastructures réduisant la profondeur à des endroits "stratégiques". Cela permettrait de faire en sorte que la vague se "crash" avant d'arriver à la côte et donc de protéger les populations. 
-
 
 -Les mesures de préventions actuelles ne sont pas efficaces face aux tsunamis.
 
@@ -33,9 +31,12 @@ Est-il rentable de protéger une ville face à un tsunami?
 
 -Plus un bâtiment est haut, moins il est soumis au risque d'être détruit par un tsunami.
 
--Plus le littoral entre la ville et la mer est grand (et la distance donc), moins la vague fait de dégât
 
+
+**Abandonnées**
+~~Il est possible de "briser" la vague au large, peut-être en construisant des infrastructures réduisant la profondeur à des endroits "stratégiques". Cela permettrait de faire en sorte que la vague se "crash" avant d'arriver à la côte et donc de protéger les populations. ~~
 -Les vagues sont des ondes, peut-être existe-t-il un matériaux puissant les "absorber" ?  
+-Plus le littoral entre la ville et la mer est grand (et la distance donc), moins la vague fait de dégât.
 
 ## Objectifs:
 -Étudier les mesures actuelles face aux tsunamis & étudier leur rentabilité et leur fonctionnement.
