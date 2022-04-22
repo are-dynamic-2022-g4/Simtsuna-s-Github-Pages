@@ -82,6 +82,18 @@ Est-il rentable de protéger une ville face à un tsunami?
 
 
 
-## Conclusion
+
+# Conclusion 
+Suite à toutes nos expériences et recherches nous avons déduit une réponse à la problématique
+"Il est préférable de fuir et il faut investir en prévention plutôt que de chercher à se défendre."
+
+Nous avons simulés plusieurs villes, avec des budgets différents et avons comparé les résultats de la simulation du tsunami. 
+Nous en avons déduit que Oui, il est possible de sauver des vies avec des murs, mais il faut que ces murs soient de qualités, respectant une certaine résistance et soient bien entretenus. 
+De plus, les murs ont aussi leurs limites, nous avons vu qu'ils ne sont plus efficace pour les tsunamis de  magnitudes 3 et +. 
+Ainsi, nous pensons qu'il est surtout judicieux de miser sur la prévention, l'étude et la surveillance de la mer. 
+Il faudrait à terme mettre en place plus de prévention, surveiller la mer (chercher à détecter les seismes, glissements de terrains qui provoquent des tsunamis...) et surtout d'établir des routes d'évacuations. Il faut privilégier l'évacuation de la ville plutôt qu'à sa défense, en laissant peut être des couloirs d'évaluations assez large, en prévoyant des routes et des ordres d'évacutations, en passant par l'éducation pour éviter la panique...
+
+Enfin, malgré les petites difficultés que nous avons eu et même si c'était parfois difficile de trouver de la documentation sur le sujet, nous tenons à préciser que nous avous tout de même aimé réaliser ce projet, que c'était assez ludique et très riche en information.
+Merci pour cette occasion.
 
 
