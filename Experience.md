@@ -64,7 +64,8 @@ Idem pour les tsunamis de magnitude 1
 En dessous de la magnitude 2, les vagues atteignent au maximum 2 mètres, et ne devraient pas causer tant de dégâts (10 à 15% de destruction). Cependant comme expliqué précédemment, cela provient de la manière de générer la ville, il suffit qu'un seul élément "faible" (du au hasard) pour détruire une fraction de la ville. (n'ayant "que" 50 batiments, 10 bâtiments détruit par ce hasard représentent déjà 20%).
 
 
-### Conclusion: avec un budget de 210 millions en moyenne pour une ville de 50 bâtiments, (soit des bâtiments en bois en moyenne), une ville peut résister jusqu'à un tsunami de magnitude 2, avant d'être détruite dans des proportions considérables (30+% pour les tsunamis de magnitude 3+).
+### Conclusion:
+Avec un budget de 210 millions en moyenne pour une ville de 50 bâtiments, (soit des bâtiments en bois en moyenne), une ville peut résister jusqu'à un tsunami de magnitude 2, avant d'être détruite dans des proportions considérables (30+% pour les tsunamis de magnitude 3+).
 
 
 
