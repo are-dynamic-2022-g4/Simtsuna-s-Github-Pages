@@ -38,7 +38,27 @@ Conclusion:
 -Un mur de résistance maximale permet bien de sauver des infrastructures et des vies humaines, mais cependant il pert de son efficacité face aux tsunami  de magnitudes 3 et 4.
 
 
+## Expérience 3: Taux de destruction en fonction du budget de la ville (en million): 
 
+*nous n'avons malheuresement pas pu faire varier le budget de la ville, car nous n'avons pas implémenté ce paramètre dans ce code, on reste donc sur un même budget (== même ville) mais face à des tsunamis de magnitudes différentes)
 
+**Magnitude 4**
+![image](https://user-images.githubusercontent.com/101204424/164708511-eae3352a-1745-4b86-8dab-8413fac43bc7.png)
+On observe ici la taux de destruction d'une même ville face à un tsunami de magnitude 4, selon le budget d'une ville de 50 bâtiments.
+On note que le taux de destruction fluctue, mais qu'il reste entre 52 et 56%. On peut en tirer l'affirmation suivante: Une ville de 50 bâtiments ayant un budget entre 205 et 210 million d'euros subira en moyenne 53% de destruction face à un tsunami de magnitude 4.
 
+**Magnitude 3**
+![image](https://user-images.githubusercontent.com/101204424/164708558-7a075dd4-cba1-4514-bccf-08e0cffd1a34.png)
+On note que le taux de destruction fluctue cette fois entre 28 et 34% pour ce même budget face à un tsunami de magnitude 3.
+Ainsi on en déduit qu'une ville de 50 bâtiments ayant un budget entre 200 et 210 million sera détruite en moyenne de 50% face à un tsunami de magnitude 3. 
 
+**Magnitude 2**
+![image](https://user-images.githubusercontent.com/101204424/164708786-dc9da05b-ca72-4169-a512-88ad08653a23.png)
+De même face aux tsunamis de magnitude 2, le taux de destruction varie entre 15 et 16%  (il y plus de point car nous avons éffectué plus de calcul pour moyenner les résultats avec plus de précision).
+
+**Magnitude 1**
+![image](https://user-images.githubusercontent.com/101204424/164708927-cf7630cf-7e02-42c2-a979-428bed9cd936.png)
+Idem pour les tsunamis de magnitude 1
+
+**Remarque** 
+En dessous de la magnitude 2, les vagues atteignent au maximum 2 mètres, et ne devraient pas causer tant de dégâts (10 à 15% de destruction). Cependant comme expliqué précédemment, cela provient de la manière de générer la ville, il suffit qu'un seul élément "faible" (du au hasard) pour détruire une fraction de la ville. (n'ayant "que" 50 batiments, 10 bâtiments détruit par ce hasard représentent déjà 20%).
