@@ -34,8 +34,8 @@ On observe aussi par les courbes jaune et rose, la limite de notre mur. On note 
 De cela nous pouvons interpréter le "point" à partir duquel notre mur( de résistance 5, le plus résistant) perd de son efficacité. Cela signifie qu'un tel mur (qui coûte cher) est beaucoup moins éfficace pour les magnitudes 3 et 4.
 
 
-Conclusion: 
--Un mur de résistance maximale permet bien de sauver des infrastructures et des vies humaines, mais cependant il pert de son efficacité face aux tsunami  de magnitudes 3 et 4.
+### Conclusion: 
+Un mur de résistance maximale permet bien de sauver des infrastructures et des vies humaines, mais cependant il pert de son efficacité face aux tsunami  de magnitudes 3 et 4.
 
 
 ## Expérience 3: Taux de destruction en fonction du budget de la ville (en million): 
@@ -62,3 +62,14 @@ Idem pour les tsunamis de magnitude 1
 
 **Remarque** 
 En dessous de la magnitude 2, les vagues atteignent au maximum 2 mètres, et ne devraient pas causer tant de dégâts (10 à 15% de destruction). Cependant comme expliqué précédemment, cela provient de la manière de générer la ville, il suffit qu'un seul élément "faible" (du au hasard) pour détruire une fraction de la ville. (n'ayant "que" 50 batiments, 10 bâtiments détruit par ce hasard représentent déjà 20%).
+
+
+### Conclusion: avec un budget de 210 millions en moyenne pour une ville de 50 bâtiments, (soit des bâtiments en bois en moyenne), une ville peut résister jusqu'à un tsunami de magnitude 2, avant d'être détruite dans des proportions considérables (30+% pour les tsunamis de magnitude 3+).
+
+
+
+
+
+
+
+
